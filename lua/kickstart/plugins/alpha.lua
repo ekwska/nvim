@@ -52,7 +52,7 @@ dashboard.section.header.val = {
 
 -- Set menu
 dashboard.section.buttons.val = {
-	dashboard.button("p", " 🔎  Scry [project]", ":Telescope find_files<CR>"),
+	dashboard.button("p", " 🔎  Scry [cwd]", ":Telescope find_files<CR>"),
 	dashboard.button("f", " 👁️  Scry [home]", ":cd $HOME/Documents/src | Telescope find_files<CR>"),
 	dashboard.button("g", " 💤  Archive", ":LazyGit<CR>"),
 	dashboard.button("b", " 🃏  Hand", ":Telescope buffers<CR>"),

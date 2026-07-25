@@ -973,6 +973,7 @@ do
   require 'kickstart.plugins.autopairs'
   require 'kickstart.plugins.lazygit'
   require 'kickstart.plugins.alpha'
+  require 'kickstart.plugins.oil'
 
   -- require 'kickstart.plugins.gitsigns' -- adds gitsigns recommended keymaps
 

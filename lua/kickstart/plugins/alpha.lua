@@ -53,11 +53,12 @@ dashboard.section.header.val = {
 -- Set menu
 dashboard.section.buttons.val = {
 	dashboard.button("p", " 🔎  Scry [cwd]", ":Telescope find_files<CR>"),
-	dashboard.button("f", " 👁️  Scry [home]", ":cd $HOME/Documents/src | Telescope find_files<CR>"),
-	dashboard.button("g", " 💤  Archive", ":LazyGit<CR>"),
+	dashboard.button("f", " 👁️  Scry [src]", ":cd $HOME/Documents/src | Telescope find_files<CR>"),
+	dashboard.button("g", " 🦑  Archive", ":LazyGit<CR>"),
 	dashboard.button("b", " 🃏  Hand", ":Telescope buffers<CR>"),
 	dashboard.button("r", " 🪦  Graveyard", ":Telescope oldfiles<CR>"),
 	dashboard.button("c", " ⚙️  Deck", ":cd $HOME/.config/nvim | :e init.lua<CR>"),
+	dashboard.button("z", " 🦓  Zsh", ":cd $HOME | :e .zshrc<CR>"),
 	dashboard.button("q", " 🦇  Pass", ":qa<CR>"),
 }
 

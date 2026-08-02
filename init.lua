@@ -975,6 +975,7 @@ do
   require 'kickstart.plugins.alpha'
   require 'kickstart.plugins.oil'
   require 'kickstart.plugins.grapple'
+  require 'kickstart.plugins.neogen'
 
   -- require 'kickstart.plugins.gitsigns' -- adds gitsigns recommended keymaps
 
